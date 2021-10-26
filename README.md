@@ -71,6 +71,8 @@ Mine for example is `sdf_0000007e.bin`.
 
 ### Downgrade (optional)
 
+Note the `sdf_0000007e.bin` change it to yours.
+
     sudo makemkvcon f -d /dev/sr0 -f sdf_0000007e.bin rawflash main -i HL-DT-ST-BD-RE_WH16NS60-1.02-NM00100-211810291936.bin
 
 Should return:
@@ -99,6 +101,8 @@ Should show the 1.02 firmware.
     :1.02
 
 ### Upgrade
+
+Note the `sdf_0000007e.bin` change it to yours.
 
     sudo makemkvcon f -d /dev/sr0 -f sdf_0000007e.bin rawflash main -i HL-DT-ST-BD-RE_WH16NS60-1.03-NM00600-212005081010.bin
 
