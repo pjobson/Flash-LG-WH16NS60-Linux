@@ -1,4 +1,6 @@
-# Step 0
+# Flash LG WH16NS60 with Linux
+
+## Step
 
 This is abstracted from these guides: 
 
@@ -7,17 +9,17 @@ This is abstracted from these guides:
 
 Flashing your drive can permanently mess it up.
 
-# Step 1
+## Step
 
 Download & install MakeMKV: https://forum.makemkv.com/forum/viewtopic.php?t=224
 
 Register it or use the Beta Key.
 
-# Step 2
+## Step
 
 Buy a LG WH16NS60
 
-# Step 3
+## Step
 
 Check firmware, your drive is usually `/dev/sr0` unless you have multiple optical drives.
 
@@ -30,9 +32,9 @@ Should show the drive information including:
 
 If the 1.00 is greater than 1.03, you'll need to downgrade to 1.02.
 
-# Step 4
+## Step
 
-Download the patched 1.03 firmware
+Download the patched 1.03 firmware.
 
 [HL-DT-ST-BD-RE_WH16NS60-1.03-NM00600-212005081010.zip](https://gist.github.com/pjobson/678e0350506419bab355d7b4392d4104/raw/ddaf392cb8c725da85e4359129e6a4df07ca2dc4/HL-DT-ST-BD-RE_WH16NS60-1.03-NM00600-212005081010.zip)
 
@@ -40,7 +42,13 @@ For downgrading download the 1.02 firmware.
 
 [HL-DT-ST-BD-RE_WH16NS60-1.02-NM00100-211810291936.zip](https://gist.github.com/pjobson/678e0350506419bab355d7b4392d4104/raw/ddaf392cb8c725da85e4359129e6a4df07ca2dc4/HL-DT-ST-BD-RE_WH16NS60-1.02-NM00100-211810291936.zip)
 
-# Step 4
+## Step
+
+Back-up your firmware.
+
+    makemkvcon f -d /dev/sr0 dump auto
+
+## Step
 
 Flash the drive.
 
