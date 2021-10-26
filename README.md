@@ -67,9 +67,9 @@ Mine for example is `sdf_0000007e.bin`.
     sdf_0000007d.bin
     sdf_0000007e.bin
 
-## Downgrade(?)
+## Flash
 
-### Downgrade
+### Downgrade (optional)
 
     sudo makemkvcon f -d /dev/sr0 -f sdf_0000007e.bin rawflash main -i HL-DT-ST-BD-RE_WH16NS60-1.02-NM00100-211810291936.bin
 
