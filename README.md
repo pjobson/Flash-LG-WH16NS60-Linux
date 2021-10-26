@@ -1,13 +1,15 @@
 # Flash LG WH16NS60 with Linux
 
+## Notice
+
+***Flashing your drive can permanently mess it up.***
+
 ## Reference
 
 This is abstracted from these guides: 
 
 * https://forum.makemkv.com/forum/viewtopic.php?f=16&t=19634
 * https://forum.makemkv.com/forum/viewtopic.php?f=16&t=19928
-
-Flashing your drive can permanently mess it up.
 
 ## MakeMKV
 
